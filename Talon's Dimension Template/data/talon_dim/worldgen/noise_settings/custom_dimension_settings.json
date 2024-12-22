@@ -8,9 +8,9 @@
     "Properties": {
       "level": "0"
     }
-  },  
-  "sea_level": 63,
-  "ore_veins_enabled": false,
+  },
+  "sea_level": 130,
+  "ore_veins_enabled": true,
   "disable_mob_generation": false,
   "legacy_random_source": false,
   "noise": {
