@@ -10,7 +10,7 @@
           "parameters": {
             "continentalness": [
               -1.0,
-              -0.3
+              -0.4
             ],
             "depth": 0.0,
             "erosion": [
@@ -27,8 +27,8 @@
               0.6
             ],
             "weirdness": [
-              -0.9333,
-              -0.7666
+              -0.1,
+              0
             ]
           }
         }
