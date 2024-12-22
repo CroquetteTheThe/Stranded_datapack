@@ -1,16 +1,17 @@
 # Roadmap
 
-[ ] Create the perfect dimension, with almost no land
-[ ] Make the overworld this new dimension
-[ ] Rename the files
+- [ ] Create the perfect dimension, with almost no land
+- [ ] Make every villager spawn with a name
+- [ ] Make the overworld this new dimension
+- [ ] Rename the files
 
 # Further ideas
 
-[ ] Allow multiple biomes (even tho they will all end up being oceans in the end)
-[ ] Modify nether (like idk, make it void but allow spawning, like in ATM skyblock)
-[ ] Modify end? Idk how possible it that
-[ ] Allow teleportation portal with a special craft and everything (maybe with an Heart of the Sea? That would be sooo cool)
-[ ] Make the player spawn not very far from an island (it is doable with the `spawn_target` parameter)
+- [ ] Allow multiple biomes (even tho they will all end up being oceans in the end)
+- [ ] Modify nether (like idk, make it void but allow spawning, like in ATM skyblock)
+- [ ] Modify end? Idk how possible it that
+- [ ] Allow teleportation portal with a special craft and everything (maybe with an Heart of the Sea? That would be sooo cool)
+- [ ] Make the player spawn not very far from an island (it is doable with the `spawn_target` parameter)
 
 
 # How to use this datapack
