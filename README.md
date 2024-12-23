@@ -9,7 +9,7 @@
 # Further ideas
 
 - [x] Allow multiple biomes (even tho they will all end up being oceans in the end)
-- [ ] Modify nether (like idk, make it void but allow spawning, like in ATM skyblock)
+- [ ] Modify nether to have no roof, and laval level very high
 - [ ] Modify end? Idk how possible it that
 - [ ] Allow teleportation portal with a special craft and everything (maybe with an Heart of the Sea? That would be sooo cool)
 - [ ] Make the player spawn not very far from an island (it is doable with the `spawn_target` parameter)
@@ -40,3 +40,8 @@ Requirements: having Python installed
 3/ Run `python generate_assign_random_name_func.py`
 
 4/ Create a new world with the datapack
+
+
+# Tips
+
+I think the datapack is best to be played with Sophisticated Backpacks, Xaero's World Map and Xaero's Minimap :)
