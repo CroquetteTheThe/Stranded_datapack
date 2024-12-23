@@ -3,9 +3,9 @@ Runnable script that will regenerate the assign_random_names.mcfunction file.
 It is useful if you want to add or remove names from the name pool
 """
 
-BOY_COLOR = "&b"
-GIRL_COLOR = "&d"
-OTHER_COLOR = "&g"
+BOY = "boy"
+GIRL = "girl"
+OTHER = "other"
 
 boy_names = [
     "Ra", "Osiris", "Horus", "Anubis", "Thoth", "Set", "Ptah", "Amun", "Khonsu", "Sobek", "Shu",
@@ -287,19 +287,24 @@ gendered_name_list = []
 for name in name_list:
     gendered = False
     if name in boy_names:
-        gendered_name_list.append(BOY_COLOR + name)
+        gendered_name_list.append((BOY, name))
         gendered = True
     if name in girl_names:
-        gendered_name_list.append(GIRL_COLOR + name)
+        gendered_name_list.append((GIRL, name))
         gendered = True
     if name in other_names:
-        gendered_name_list.append(OTHER_COLOR + name)
+        gendered_name_list.append((OTHER, name))
         gendered = True
     if not gendered:
         raise KeyError(f"Couldn't gender the name {name}")
 
-def get_command_from_name(name, number):
-    return 'execute as @e[type=minecraft:villager,tag=!named,scores={build_r=' + str(number) + '}] at @s run data merge entity @s {CustomName:"\"'+name+'\"", named:true}'
+
+
+def get_command_from_name(name, number, gender):
+    script = 'execute as @e[type=minecraft:villager,tag=!named,scores={build_r=' + str(number) + '}] at @s '
+    script += 'run data merge entity @s {CustomName:"\\"'+name+'\\"", named:true}\n'
+    script += 'team join '+ gender +' @e[type=minecraft:villager,tag=!named,scores={build_r=' + str(number) + '}]'
+    return script
 
 number_of_names = len(gendered_name_list)
 
@@ -307,7 +312,7 @@ with open("Stranded/data/stranded/function/assign_random_names.mcfunction", "w")
     f.write("scoreboard objectives add build_r dummy\n")
     f.write("execute as @e[type=minecraft:villager,tag=!named] at @s store result score @s build_r run random "
             f"value 0..{number_of_names}\n")
-    for i, name in enumerate(gendered_name_list):
-        command = get_command_from_name(name, i)
+    for i, (gender, name) in enumerate(gendered_name_list):
+        command = get_command_from_name(name, i, gender)
         f.write(f"{command}\n")
     f.write("tag @e[type=minecraft:villager,tag=!named] add named\n")
