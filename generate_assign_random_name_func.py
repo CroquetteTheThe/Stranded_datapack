@@ -45,7 +45,10 @@ boy_names = [
     "Hail", "Thunder", "Dawn", "Dusk", "Solstice", "Equinox", "Zephyr", "Honey", "Basil", "Lemon", "Berry",
     "Pepper", "Croissant", "Bacon", "Cloud", "Azure", "Juju", "Pikachu", "Rukey Greentail", "Breeze", "Snow",
     "Pancake", "Caramel", "Orange", "Apple", "Milk", "Toast", "Mint", "BBQ", "Cherry", "Chocolate", "Cake", "Pie",
-    "Syrup", "Gluttony", "Miqol", "Talos"
+    "Syrup", "Gluttony", "Miqol", "Talos", "Gon", "Killua", "Leorio", "Hisoka", "Chrollo", "Meruem","Netero", "Zeno",
+    "Illumi", "Shalnark", "Feitan", "Kite", "Knov", "Menthuthuyoupi", "Pufu", "Silva", "Tonpa", "Genthru", "Razor",
+    "Basho", "Morel", "Knuckle", "Shoot", "Hanzo"
+
 ]
 girl_names = [
     "Isis", "Bastet", "Hathor", "Nephthys", "Sekhmet", "Ma'at", "Tefnut", "Hera", "Demeter",
@@ -73,7 +76,8 @@ girl_names = [
     "Dusk", "Solstice", "Equinox", "Zephyr", "Honey", "Basil", "Lemon", "Berry", "Pepper", "Croissant", "Bacon", "Misty",
     "Azure", "Meyneth", "Shelly", "Jodariel", "Breeze", "Snow", "Pancake", "Caramel", "Orange", "Apple", "Milk", "Toast",
     "Mint", "BBQ", "Cherry", "Chocolate", "Cake", "Pie", "Syrup", "Udmildhe", "ZephyraMarina", "Pearl", "Anemone", "Sapphire",
-    "Nixie", "Undine", "Maris", "Selkie", "Calypso", "Galene", "Briny", "Halcyon", "Tethys"
+    "Nixie", "Undine", "Maris", "Selkie", "Calypso", "Galene", "Briny", "Halcyon", "Tethys", "Biscuit", "Machi", "Cheadle",
+    "Pitou", "Komugi", "Blinky"
 ]
 other_names = [
     "Nut", "Geb", "Persepolis",
@@ -90,7 +94,7 @@ other_names = [
     "Teal", "Carmine", "Mauve", "Turquoise", "Summer", "Autumn", "Winter", "Spring", "Rain", "Frost", "Storm", "Sunny",
     "Hail", "Thunder", "Dawn", "Dusk", "Solstice", "Equinox", "Zephyr", "Honey", "Basil", "Lemon", "Berry", "Pepper",
     "Croissant", "Bacon", "Misty", "Azure", "Breeze", "Snow", "Pancake", "Caramel", "Orange", "Apple", "Milk", "Toast",
-    "Mint", "BBQ", "Cherry", "Chocolate", "Cake", "Pie", "Syrup"
+    "Mint", "BBQ", "Cherry", "Chocolate", "Cake", "Pie", "Syrup", "Kurapika", "Nanika", "Alluka",
 
 ]
 
@@ -263,6 +267,16 @@ name_list = [
     "Serena", "Naia", "Morgana", "Selkie", "Calypso",
     "Galene", "Pelagia", "Briny", "Halcyon", "Venilia",
     "Marilla", "Syrena", "Tethys", "Ephyra", "Ondine",
+
+    # hunter_x_hunter_characters
+    "Gon", "Killua", "Kurapika", "Leorio", "Hisoka", "Chrollo", "Meruem",
+    "Netero", "Zeno", "Illumi", "Biscuit", "Machi", "Shalnark", "Feitan",
+    "Kite", "Alluka", "Knov", "Menthuthuyoupi", "Pufu", "Cheadle",
+    "Silva", "Tonpa", "Pitou", "Komugi", "Genthru", "Hanzo",
+    "Razor", "Basho", "Morel", "Knuckle", "Shoot", "Blinky", "Nanika",
+
+
+
 
     # custom_names_croquette
     "Pikachu", "Talos",
