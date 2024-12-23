@@ -1,0 +1,2 @@
+function talon_dim:assign_random_name
+schedule function talon_dim:loop 40t append
