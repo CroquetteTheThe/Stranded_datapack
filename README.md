@@ -1,9 +1,10 @@
 # Roadmap
 
 - [ ] Create the perfect dimension, with almost no land
-- [ ] Make every villager spawn with a name
+- [x] Make every villager spawn with a name
 - [ ] Make the overworld this new dimension
-- [ ] Rename the files
+- [x] Rename the files
+- [ ] Explain how to use generate_assign_random_name_func.py
 
 # Further ideas
 
@@ -21,3 +22,5 @@
 3/ It should appear on the left side; click on it, and now it is on the right side :) This means it is going to be used
 4/ Done
 5/ Create new world
+
+
