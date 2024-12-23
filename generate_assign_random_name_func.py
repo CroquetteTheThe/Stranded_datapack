@@ -47,7 +47,9 @@ boy_names = [
     "Pancake", "Caramel", "Orange", "Apple", "Milk", "Toast", "Mint", "BBQ", "Cherry", "Chocolate", "Cake", "Pie",
     "Syrup", "Gluttony", "Miqol", "Talos", "Gon", "Killua", "Leorio", "Hisoka", "Chrollo", "Meruem","Netero", "Zeno",
     "Illumi", "Shalnark", "Feitan", "Kite", "Knov", "Menthuthuyoupi", "Pufu", "Silva", "Tonpa", "Genthru", "Razor",
-    "Basho", "Morel", "Knuckle", "Shoot", "Hanzo"
+    "Basho", "Morel", "Knuckle", "Shoot", "Hanzo", "Ulfric", "Jarl Balgruuf", "Farkas", "Vilkas", "Esbern", "Eorlund",
+    "Cicero", "Mercer Frey", "Farengar", "Gorm", "Borgakh", "Calcelmo",
+    "Tullius", "Ahlam", "Balin", "Bran", "Talos", "Tulius",
 
 ]
 girl_names = [
@@ -77,7 +79,8 @@ girl_names = [
     "Azure", "Meyneth", "Shelly", "Jodariel", "Breeze", "Snow", "Pancake", "Caramel", "Orange", "Apple", "Milk", "Toast",
     "Mint", "BBQ", "Cherry", "Chocolate", "Cake", "Pie", "Syrup", "Udmildhe", "ZephyraMarina", "Pearl", "Anemone", "Sapphire",
     "Nixie", "Undine", "Maris", "Selkie", "Calypso", "Galene", "Briny", "Halcyon", "Tethys", "Biscuit", "Machi", "Cheadle",
-    "Pitou", "Komugi", "Blinky"
+    "Pitou", "Komugi", "Blinky", "Aela", "Astrid", "Delphine", "Gerdur", "Jarl Elisif",
+    "Lydia", "Mjoll", "Olfrida", "Svidi", "Taarie", "Sylgja", "Ysolda", "Maven Black-Briar", "Sigrid", "Vex", "Vildralda", "Avrusa Sarethi"
 ]
 other_names = [
     "Nut", "Geb", "Persepolis",
@@ -275,11 +278,18 @@ name_list = [
     "Silva", "Tonpa", "Pitou", "Komugi", "Genthru", "Hanzo",
     "Razor", "Basho", "Morel", "Knuckle", "Shoot", "Blinky", "Nanika",
 
+    # skyrim
+    "Aela", "Astrid", "Delphine", "Gerdur", "Jarl Elisif",
+    "Lydia", "Mjoll", "Olfrida", "Svidi", "Taarie", "Sylgja", "Ysolda",
+    "Maven Black-Briar", "Sigrid", "Vex", "Vildralda", "Avrusa Sarethi",
+    "Ulfric", "Jarl Balgruuf", "Farkas", "Vilkas", "Esbern", "Eorlund",
+    "Cicero", "Mercer Frey", "Farengar", "Gorm", "Borgakh", "Calcelmo",
+    "Tullius", "Ahlam", "Balin", "Bran", "Talos", "Tulius",
 
 
 
     # custom_names_croquette
-    "Pikachu", "Talos",
+    "Pikachu",
 ]
 
 gendered_name_list = []
