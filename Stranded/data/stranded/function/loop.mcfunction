@@ -1,0 +1,2 @@
+function stranded:assign_random_name
+schedule function stranded:loop 40t append
