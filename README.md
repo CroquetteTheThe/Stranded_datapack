@@ -9,7 +9,7 @@
 # Further ideas
 
 - [x] Allow multiple biomes (even tho they will all end up being oceans in the end)
-- [ ] Modify nether to have no roof, and laval level very high
+- [x] Modify nether to have no roof, and laval level very high -> I did better
 - [ ] Modify end? Idk how possible it that
 - [ ] Allow teleportation portal with a special craft and everything (maybe with an Heart of the Sea? That would be sooo cool)
 - [ ] Make the player spawn not very far from an island (it is doable with the `spawn_target` parameter)
@@ -45,3 +45,5 @@ Requirements: having Python installed
 # Tips
 
 I think the datapack is best to be played with Sophisticated Backpacks, Xaero's World Map and Xaero's Minimap :)
+
+I also included a modified version of the datapack (Skyther)[https://www.planetminecraft.com/data-pack/skyther-6024258/], to create small islands in the nether. It nerfs the nether (which is OP since you can skip the gameplay by creating portals)
