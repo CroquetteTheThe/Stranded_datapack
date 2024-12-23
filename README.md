@@ -44,6 +44,6 @@ Requirements: having Python installed
 
 # Tips
 
-I think the datapack is best to be played with Sophisticated Backpacks, Xaero's World Map and Xaero's Minimap :)
+I think the datapack is best to be played with Waystones, Sophisticated Backpacks, Xaero's World Map and Xaero's Minimap :)
 
 I also included a modified version of the datapack (Skyther)[https://www.planetminecraft.com/data-pack/skyther-6024258/], to create small islands in the nether. It nerfs the nether (which is OP since you can skip the gameplay by creating portals)
