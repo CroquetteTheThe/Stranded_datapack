@@ -302,7 +302,7 @@ for name in name_list:
 
 def get_command_from_name(name, number, gender):
     script = 'execute as @e[type=minecraft:villager,tag=!named,scores={build_r=' + str(number) + '}] at @s '
-    script += 'run data merge entity @s {CustomName:"\\"'+name+'\\"", named:true}\n'
+    script += 'run data merge entity @s {CustomName:"\\"'+name+'\\"", named:true,PersistenceRequired:1b}\n'
     script += 'team join '+ gender +' @e[type=minecraft:villager,tag=!named,scores={build_r=' + str(number) + '}]'
     return script
 
