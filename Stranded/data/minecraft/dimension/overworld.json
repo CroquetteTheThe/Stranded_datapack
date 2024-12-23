@@ -1,7 +1,7 @@
 {
-  "type": "talon_dim:custom_dimension_type",
+  "type": "stranded:custom_dimension_type",
   "generator": {
-    "settings": "talon_dim:custom_dimension_settings",
+    "settings": "stranded:custom_dimension_settings",
     "type": "minecraft:noise",
     "biome_source": {
       "biomes": [

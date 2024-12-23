@@ -1,9 +1,10 @@
 # Roadmap
 
 - [ ] Create the perfect dimension, with almost no land
-- [ ] Make every villager spawn with a name
-- [ ] Make the overworld this new dimension
-- [ ] Rename the files
+- [x] Make every villager spawn with a name
+- [x] Make the overworld this new dimension
+- [x] Rename the files
+- [x] Explain how to use generate_assign_random_name_func.py
 
 # Further ideas
 
@@ -21,3 +22,13 @@
 3/ It should appear on the left side; click on it, and now it is on the right side :) This means it is going to be used
 4/ Done
 5/ Create new world
+
+
+# How to add or remove names
+
+Requirements: having Python installed
+
+1/ Open generate_assign_random_name_func.py
+2/ Change the names in `name_list`. If you are adding new names, don't forget to place them in the corresponding gender categories. A name can be placed in multiple categories.
+3/ Run `python generate_assign_random_name_func.py`
+4/ Create a new world with the datapack
