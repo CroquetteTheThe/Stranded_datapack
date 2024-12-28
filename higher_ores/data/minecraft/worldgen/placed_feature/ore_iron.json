@@ -1,0 +1,13 @@
+{
+  "feature": "namespace:iron_ore",
+  "placement": [
+    {
+      "type": "height_range",
+      "height": {
+        "type": "uniform",
+        "min_inclusive": { "type": "constant", "value": 64 },
+        "max_inclusive": { "type": "constant", "value": 320 }
+      }
+    }
+  ]
+}
