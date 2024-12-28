@@ -67,7 +67,7 @@ girl_names = [
     "Phoebe", "Eris", "Seraphina", "Aeliana", "Sylphie", "Nymeria", "Elysia", "Arwyn", "Thaliana",
     "Lyric", "Caelia", "Amariel", "Ravina", "Lunaria", "Virelia", "Aeris", "Mythra", "Zephyra", "JaidenAnimations",
     "Pamitha Theyn", "Bertrude", "Valeria", "Ondine", "Zephyra", "Atalanta", "Boudica", "Mata", "Sienna", "Joan of Arc",
-    "Sheska", "Vagabond Girl", "Erisa",
+    "Sheska", "Bae", "Erisa",
     "Sandra", "Tamitha Theyn", "Sharla", "Melia", "Vanea", "Lorithia", "Tyrea", "Linada",
     "Andromeda", "Thalassa", "Zephyra", "Marina", "Oceana", "Nerissa", "Darya",
     "Isla", "Merida", "Caspia", "Ariel", "Laguna", "Lorelei", "Delphine", "Coraline",
@@ -236,7 +236,7 @@ name_list = [
     "Radagast", "Celeborn",
 
     # pyre_character_names
-    "Hedwyn", "Jodariel", "Rukey Greentail", "Vagabond Girl", "Ti'zo",
+    "Hedwyn", "Jodariel", "Rukey Greentail", "Bae", "Ti'zo",
     "Sir Gilman", "Pamitha Theyn", "Bertrude", "Volfred Sandalwood",
     "Tariq", "Oralech", "Erisa", "Celeste", "Falcon Ron", "Sandra",
     "Almer Oldheart", "Barker Ashpaws", "Dalbert Oldheart", "Ignarius",

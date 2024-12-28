@@ -1060,7 +1060,7 @@ execute as @e[type=minecraft:villager,tag=!named,scores={build_r=528}] at @s run
 team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=528}]
 execute as @e[type=minecraft:villager,tag=!named,scores={build_r=529}] at @s run data merge entity @s {CustomName:"\"Rukey Greentail\"", named:true,PersistenceRequired:1b}
 team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=529}]
-execute as @e[type=minecraft:villager,tag=!named,scores={build_r=530}] at @s run data merge entity @s {CustomName:"\"Vagabond Girl\"", named:true,PersistenceRequired:1b}
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=530}] at @s run data merge entity @s {CustomName:"\"Bae\"", named:true,PersistenceRequired:1b}
 team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=530}]
 execute as @e[type=minecraft:villager,tag=!named,scores={build_r=531}] at @s run data merge entity @s {CustomName:"\"Ti'zo\"", named:true,PersistenceRequired:1b}
 team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=531}]
