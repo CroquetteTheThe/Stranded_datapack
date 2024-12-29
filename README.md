@@ -9,25 +9,35 @@
 # Further ideas
 
 - [x] Allow multiple biomes (even tho they will all end up being oceans in the end)
-- [x] Modify nether to have no roof, and laval level very high -> I did better
+- [x] Generate the ore only at island-level, and never in the mines. I want to encourage exploration of islands
 - [ ] Modify end? Idk how possible it that
-- [ ] Allow teleportation portal with a special craft and everything (maybe with an Heart of the Sea? That would be sooo cool)
-- [ ] Make the player spawn not very far from an island (it is doable with the `spawn_target` parameter)
+- [ ] Make naturally generated waystone names be references to fiction locations
+- [ ] Make the nether a lava oceans with islands
+- [ ] Somehow make iron, gold, and diamond boats? Or scale the speed with the levels?
 
 
 # How to use this datapack
 
 1/ Create a new world, but don't click on Create yet
 
-2/ Go in datapack, Open Datapack Folder, and paster the datapack in it
+2/ Go in datapack, Open Datapack Folder, and paste the datapacks in it
 
-3/ It should appear on the left side; click on it, and now it is on the right side :) This means it is going to be used
+3/ They should appear on the left side; click on them, and now it is on the right side :) This means it is going to be used
 
 4/ Done
 
 5/ Create new world
 
 
+# What is here
+
+We have a modified version of the Survival Islands datapack, with tiny tiny island very rare (so grindy right!! :D)
+
+We also have the Skyther datapack, unmodified, to modify the nether
+
+Then comes the Villager Names datapack, to give each individual a name
+
+And finally, the Higher Ores datapack, that will remove specific ore generation underground, and instead for the generation on the surface (mostly where islands are). You can't write explore without ore ;)
 
 # How to add or remove names
 
@@ -47,35 +57,3 @@ Requirements: having Python installed
 I think the datapack is best to be played with Waystones, Sophisticated Backpacks, Xaero's World Map and Xaero's Minimap :)
 
 I also included a modified version of the datapack (Skyther)[https://www.planetminecraft.com/data-pack/skyther-6024258/], to create small islands in the nether. It nerfs the nether (which is OP since you can skip the gameplay by creating portals)
-
-# Very important note from future me
-
-I found this datapack:
-https://modrinth.com/datapack/survival-islands
-
-It is awesome and is exactly what I wanted. I replace island_noise.json content with this:
-
-
-```
-{
-    "type": "minecraft:add",
-    "argument1": -1.10,
-    "argument2": {
-        "type": "minecraft:shifted_noise",
-        "noise": "minecraft:continentalness",
-        "xz_scale": 3.2,
-        "y_scale": 0,
-        "shift_x": "minecraft:shift_x",
-        "shift_y": 0,
-        "shift_z": "minecraft:shift_z"
-    }
-}
-```
-
-But it's okey, this datapack is still useful to name the villagers!
-
-- [ ] Make naturally generated waystone names be references to fiction locations
-- [ ] Do a pack of datapack (?) to add into the game very easily
-- [ ] Make the nether a lava oceans with islands
-- [x] Generate the ore only at island-level, and never in the mines. I want to encourage exploration of islands
-- [ ] Somehow make iron, gold, and diamond boats? Or scale the speed with the levels?
