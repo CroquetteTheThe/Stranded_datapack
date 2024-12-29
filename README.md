@@ -79,5 +79,5 @@ But it's okey, this datapack is still useful to name the villagers!
 - [ ] Make naturally generated waystone names be references to fiction locations
 - [ ] Do a pack of datapack (?) to add into the game very easily
 - [ ] Make the nether a lava oceans with islands
-- [ ] Generate the ore only at island-level, and never in the mines. I want to encourage exploration of islands
-- [ ] Somehow make iron, gold, and diamond boats?
+- [x] Generate the ore only at island-level, and never in the mines. I want to encourage exploration of islands
+- [ ] Somehow make iron, gold, and diamond boats? Or scale the speed with the levels?
