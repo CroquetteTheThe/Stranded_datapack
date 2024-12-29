@@ -1,5 +1,3 @@
-For this branch, I recommand using Ore X rays
-
 # Roadmap
 
 - [x] Create the perfect dimension, with almost no land
