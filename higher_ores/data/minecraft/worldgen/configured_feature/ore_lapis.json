@@ -8,40 +8,40 @@
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:stone",
-            "probability": 0.5
+            "probability": 0.9
           },
           "state": {
-            "Name": "minecraft:gold_ore"
+            "Name": "minecraft:lapis_ore"
           }
         },
         {
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:dirt",
-            "probability": 0.5
+            "probability": 0.9
           },
           "state": {
-            "Name": "minecraft:gold_ore"
+            "Name": "minecraft:lapis_ore"
           }
         },
         {
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 0.5
+            "probability": 0.9
           },
           "state": {
-            "Name": "minecraft:gold_ore"
+            "Name": "minecraft:lapis_ore"
           }
         },
         {
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:sand",
-            "probability": 0.5
+            "probability": 0.8
           },
           "state": {
-            "Name": "minecraft:gold_ore"
+            "Name": "minecraft:lapis_ore"
           }
         },
         {
@@ -51,7 +51,7 @@
             "probability": 0.05
           },
           "state": {
-            "Name": "minecraft:deepslate_gold_ore"
+            "Name": "minecraft:deepslate_lapis_ore"
           }
         },
         {
@@ -60,7 +60,7 @@
             "tag": "minecraft:stone_ore_replaceables"
           },
           "state": {
-            "Name": "minecraft:gold_ore"
+            "Name": "minecraft:lapis_ore"
           }
         },
         {
@@ -69,7 +69,7 @@
             "tag": "minecraft:deepslate_ore_replaceables"
           },
           "state": {
-            "Name": "minecraft:deepslate_gold_ore"
+            "Name": "minecraft:deepslate_lapis_ore"
           }
         }
       ]
