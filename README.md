@@ -14,7 +14,7 @@
 - [ ] Make naturally generated waystone names be references to fiction locations
 - [ ] Make the nether a lava oceans with islands
 - [ ] Somehow make iron, gold, and diamond boats? Or scale the speed with the levels?
-
+- [ ] Up geodes to sea level
 
 # How to use this datapack
 
