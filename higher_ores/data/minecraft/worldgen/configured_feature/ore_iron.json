@@ -11,7 +11,17 @@
             "probability": 0.03
           },
           "state": {
-            "Name": "minecraft:raw_iron_block"
+            "Name": "minecraft:iron_ore"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dirt",
+            "probability": 0.03
+          },
+          "state": {
+            "Name": "minecraft:iron_ore"
           }
         },
         {
@@ -21,7 +31,7 @@
             "probability": 0.05
           },
           "state": {
-            "Name": "minecraft:raw_iron_block"
+            "Name": "minecraft:deepslate_iron_ore"
           }
         },
         {
@@ -45,4 +55,3 @@
       ]
     }
   }
-  
