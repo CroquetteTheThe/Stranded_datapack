@@ -14,8 +14,8 @@
 - [ ] The Set Sail enchant. It would be a special enchant for boat only. Each level of Set Sail is going to increase the speed of the boat. Set Sail is only finding in chests in the outside world (burried treasures, ocean monuments, temples shipwreck, woodland mansion, and ocean ruins). Only Set Sail I (85% chances) and II (15%) chances are foundable naturally. The enchant goes up to Set Sail X.
 - [ ] Make a boat enchant to sail on lava; necessary for nether
 - [ ] Modify end? Idk how possible it that
-- [ ] Make naturally generated waystone names be references to fiction locations
-- [ ] Set waystone spawnInVillages to FREQUENT. I like the idea of having a village name
+- [x] Make naturally generated waystone names be references to fiction locations
+- [x] Set waystone spawnInVillages to FREQUENT. I like the idea of having a village name
 - [ ] Up geodes to sea level
 - [ ] Make some ore specific to some biomes
 
@@ -54,6 +54,9 @@ Requirements: having Python installed
 
 4/ Create a new world with the datapack
 
+# Custom better waypoints
+
+I added some custom waypoint names :) Also they will appear very frequently in villages, which is nice for my world I think. To use it, just copy the `waystones-common.toml` to the `.minecraft\config` directory
 
 # Tips
 
