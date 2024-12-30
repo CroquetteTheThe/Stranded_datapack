@@ -28,7 +28,7 @@
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 0.2
+            "probability": 0.1
           },
           "state": {
             "Name": "minecraft:gold_ore"
