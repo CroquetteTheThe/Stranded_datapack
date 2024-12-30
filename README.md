@@ -15,6 +15,7 @@
 - [ ] Make the nether a lava oceans with islands
 - [ ] Somehow make iron, gold, and diamond boats? Or scale the speed with the levels?
 - [ ] Up geodes to sea level
+- [ ] Make some ore specific to some biomes
 
 # How to use this datapack
 
