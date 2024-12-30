@@ -3,7 +3,7 @@
     "type": "minecraft:scattered_ore",
     "config": {
       "size": 3,
-      "discard_chance_on_air_exposure": 1,
+      "discard_chance_on_air_exposure": 0,
       "targets": [
         {
           "target": {
@@ -20,17 +20,17 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 12
+      "count": 10
     },
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:biased_to_bottom",
+        "type": "minecraft:trapezoid",
         "min_inclusive": {
-          "absolute": -64
+          "absolute": 40
         },
         "max_inclusive": {
-          "absolute": 0
+          "absolute": 70
         }
       }
     },

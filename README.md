@@ -10,13 +10,13 @@
 
 - [x] Allow multiple biomes (even tho they will all end up being oceans in the end)
 - [x] Generate the ore only at island-level, and never in the mines. I want to encourage exploration of islands
-- [ ] Make the nether a lava oceans with islands
+- [x] Make the nether a lava oceans with islands
 - [ ] The Set Sail enchant. It would be a special enchant for boat only. Each level of Set Sail is going to increase the speed of the boat. Set Sail is only finding in chests in the outside world (burried treasures, ocean monuments, temples shipwreck, woodland mansion, and ocean ruins). Only Set Sail I (85% chances) and II (15%) chances are foundable naturally. The enchant goes up to Set Sail X.
 - [ ] Make a boat enchant to sail on lava; necessary for nether
 - [ ] Modify end? Idk how possible it that
 - [x] Make naturally generated waystone names be references to fiction locations
 - [x] Set waystone spawnInVillages to FREQUENT. I like the idea of having a village name
-- [ ] Up geodes to sea level
+- [x] Up geodes to sea level
 - [ ] Make some ore specific to some biomes
 
 # How to use this datapack

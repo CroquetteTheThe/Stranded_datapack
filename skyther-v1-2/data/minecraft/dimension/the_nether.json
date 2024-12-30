@@ -3,7 +3,7 @@
   "generator": {
     "type": "minecraft:noise",
     "settings": {
-      "sea_level": -64,
+      "sea_level": 40,
       "disable_mob_generation": false,
       "aquifers_enabled": false,
       "ore_veins_enabled": false,
@@ -14,12 +14,12 @@
       "default_fluid": {
         "Name": "minecraft:lava",
         "Properties": {
-          "level": "0"
+          "level": "39"
         }
       },
       "noise": {
         "min_y": 0,
-        "height": 32,
+        "height": 64,
         "size_horizontal": 1,
         "size_vertical": 1
       },
