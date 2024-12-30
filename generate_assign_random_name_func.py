@@ -49,7 +49,7 @@ boy_names = [
     "Illumi", "Shalnark", "Feitan", "Kite", "Knov", "Menthuthuyoupi", "Pufu", "Silva", "Tonpa", "Genthru", "Razor",
     "Basho", "Morel", "Knuckle", "Shoot", "Hanzo", "Ulfric", "Jarl Balgruuf", "Farkas", "Vilkas", "Esbern", "Eorlund",
     "Cicero", "Mercer Frey", "Farengar", "Gorm", "Borgakh", "Calcelmo",
-    "Tullius", "Ahlam", "Balin", "Bran", "Talos", "Tulius",
+    "Tullius", "Ahlam", "Balin", "Bran", "Talos", "Tulius", "Sephiroth"
 
 ]
 girl_names = [
@@ -80,7 +80,8 @@ girl_names = [
     "Mint", "BBQ", "Cherry", "Chocolate", "Cake", "Pie", "Syrup", "Udmildhe", "ZephyraMarina", "Pearl", "Anemone", "Sapphire",
     "Nixie", "Undine", "Maris", "Selkie", "Calypso", "Galene", "Briny", "Halcyon", "Tethys", "Biscuit", "Machi", "Cheadle",
     "Pitou", "Komugi", "Blinky", "Aela", "Astrid", "Delphine", "Gerdur", "Jarl Elisif",
-    "Lydia", "Mjoll", "Olfrida", "Svidi", "Taarie", "Sylgja", "Ysolda", "Maven Black-Briar", "Sigrid", "Vex", "Vildralda", "Avrusa Sarethi"
+    "Lydia", "Mjoll", "Olfrida", "Svidi", "Taarie", "Sylgja", "Ysolda", "Maven Black-Briar", "Sigrid", "Vex", "Vildralda",
+    "Avrusa Sarethi", "Grell Sutcliff"
 ]
 other_names = [
     "Nut", "Geb", "Persepolis",
@@ -289,19 +290,23 @@ name_list = [
 
 
     # custom_names_croquette
-    "Pikachu",
+    "Pikachu", "Sephiroth", "Grell Sutcliff"
 ]
 
 gendered_name_list = []
 
 for name in name_list:
+    gendered = False
     if name in boy_names:
         gendered_name_list.append((BOY, name))
-    elif name in girl_names:
+        gendered = True
+    if name in girl_names:
         gendered_name_list.append((GIRL, name))
-    elif name in other_names:
+        gendered = True
+    if name in other_names:
         gendered_name_list.append((OTHER, name))
-    else:
+        gendered = True
+    if not gendered:
         raise KeyError(f"Couldn't gender the name {name}")
 
 
@@ -314,7 +319,7 @@ def get_command_from_name(name, number, gender):
 
 number_of_names = len(gendered_name_list)
 
-with open("Villager_names/data/stranded/function/assign_random_names.mcfunction", "w") as f:
+with open("Villager_names/data/stranded/function/assign_random_names.mcfunction", "w", encoding="utf-8") as f:
     f.write("scoreboard objectives add build_r dummy\n")
     f.write("execute as @e[type=minecraft:villager,tag=!named] at @s store result score @s build_r run random "
             f"value 0..{number_of_names}\n")
