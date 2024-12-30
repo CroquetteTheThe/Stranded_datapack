@@ -1,0 +1,33 @@
+{
+  "description": {"text":"Offroadin'","color":"light_purple"},
+  "exclusive_set": [
+    "skizz_boats:lava_boat"
+  ],
+  "supported_items": "#boats",
+  "primary_items": "#boats",
+  "weight": 6,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 41,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "skizz_boats:offroadin_ench_tick"
+        }
+      }
+    ]
+  }
+}

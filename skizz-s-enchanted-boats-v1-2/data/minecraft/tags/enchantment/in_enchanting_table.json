@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "skizz_boats:offroadin",
+        "skizz_boats:lava_boat",
+        "skizz_boats:sidecar",
+        "skizz_boats:rooster_tail"
+    ]
+}

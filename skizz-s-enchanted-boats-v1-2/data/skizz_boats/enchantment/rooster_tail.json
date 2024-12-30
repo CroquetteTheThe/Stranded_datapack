@@ -1,0 +1,33 @@
+{
+  "description": {"text":"Rooster Tail","color":"light_purple"},
+  "exclusive_set": [
+    "skizz_boats:lava_boat"
+  ],
+  "supported_items": "#boats",
+  "primary_items": "#boats",
+  "weight": 5,
+  "max_level": 4,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "skizz_boats:rooster_tail_ench_tick"
+        }
+      }
+    ]
+  }
+}

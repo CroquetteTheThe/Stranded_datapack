@@ -1,0 +1,34 @@
+{
+  "description": {"text":"Hoverin'","color":"light_purple"},
+  "exclusive_set": [
+    "skizz_boats:rooster_tail",
+    "skizz_boats:offroadin"
+  ],
+  "supported_items": "#boats",
+  "primary_items": "#boats",
+  "weight": 3,
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 25
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "skizz_boats:lava_boat_ench_tick"
+        }
+      }
+    ]
+  }
+}

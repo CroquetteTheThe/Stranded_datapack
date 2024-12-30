@@ -1,0 +1,26 @@
+
+# Add scoreboards to track enchanted boat placement
+scoreboard objectives add skizz_placed_oak minecraft.used:minecraft.oak_boat
+scoreboard objectives add skizz_placed_spruce minecraft.used:minecraft.spruce_boat
+scoreboard objectives add skizz_placed_birch minecraft.used:minecraft.birch_boat
+scoreboard objectives add skizz_placed_jungle minecraft.used:minecraft.jungle_boat
+scoreboard objectives add skizz_placed_acacia minecraft.used:minecraft.acacia_boat
+scoreboard objectives add skizz_placed_dark_oak minecraft.used:minecraft.dark_oak_boat
+scoreboard objectives add skizz_placed_mangrove minecraft.used:minecraft.mangrove_boat
+scoreboard objectives add skizz_placed_cherry minecraft.used:minecraft.cherry_boat
+scoreboard objectives add skizz_placed_bamboo minecraft.used:minecraft.bamboo_raft
+scoreboard objectives add skizz_placed_pale_oak minecraft.used:minecraft.pale_oak_boat
+scoreboard objectives add skizz_placed_c_oak minecraft.used:minecraft.oak_chest_boat
+scoreboard objectives add skizz_placed_c_spruce minecraft.used:minecraft.spruce_chest_boat
+scoreboard objectives add skizz_placed_c_birch minecraft.used:minecraft.birch_chest_boat
+scoreboard objectives add skizz_placed_c_jungle minecraft.used:minecraft.jungle_chest_boat
+scoreboard objectives add skizz_placed_c_acacia minecraft.used:minecraft.acacia_chest_boat
+scoreboard objectives add skizz_placed_c_dark_oak minecraft.used:minecraft.dark_oak_chest_boat
+scoreboard objectives add skizz_placed_c_mangrove minecraft.used:minecraft.mangrove_chest_boat
+scoreboard objectives add skizz_placed_c_cherry minecraft.used:minecraft.cherry_chest_boat
+scoreboard objectives add skizz_placed_c_bamboo minecraft.used:minecraft.bamboo_chest_raft
+scoreboard objectives add skizz_placed_c_pale_oak minecraft.used:minecraft.pale_oak_chest_boat
+
+scoreboard objectives add skizz_placed_boat dummy
+
+say Skizz's Enchanted Boats Loaded.

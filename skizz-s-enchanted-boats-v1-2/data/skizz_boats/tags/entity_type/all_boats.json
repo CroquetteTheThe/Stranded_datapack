@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+  "#minecraft:boat",
+  "#skizz_boats:chest_boats"
+  ]
+}

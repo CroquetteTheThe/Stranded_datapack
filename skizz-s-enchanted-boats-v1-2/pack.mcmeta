@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"description": "Skizzleman's Enchanted Boats by Talon2863.",
+		"pack_format": 5,
+        "supported_formats": {
+            "min_inclusive": 1,
+            "max_inclusive": 999
+        }
+	}
+}
