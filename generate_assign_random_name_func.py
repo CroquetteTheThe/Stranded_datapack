@@ -295,17 +295,13 @@ name_list = [
 gendered_name_list = []
 
 for name in name_list:
-    gendered = False
     if name in boy_names:
         gendered_name_list.append((BOY, name))
-        gendered = True
-    if name in girl_names:
+    elif name in girl_names:
         gendered_name_list.append((GIRL, name))
-        gendered = True
-    if name in other_names:
+    elif name in other_names:
         gendered_name_list.append((OTHER, name))
-        gendered = True
-    if not gendered:
+    else:
         raise KeyError(f"Couldn't gender the name {name}")
 
 
@@ -318,7 +314,7 @@ def get_command_from_name(name, number, gender):
 
 number_of_names = len(gendered_name_list)
 
-with open("Stranded/data/stranded/function/assign_random_names.mcfunction", "w") as f:
+with open("Villager_names/data/stranded/function/assign_random_names.mcfunction", "w") as f:
     f.write("scoreboard objectives add build_r dummy\n")
     f.write("execute as @e[type=minecraft:villager,tag=!named] at @s store result score @s build_r run random "
             f"value 0..{number_of_names}\n")
