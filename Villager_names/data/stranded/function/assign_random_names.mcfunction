@@ -1,5 +1,5 @@
 scoreboard objectives add build_r dummy
-execute as @e[type=minecraft:villager,tag=!named] at @s store result score @s build_r run random value 0..732
+execute as @e[type=minecraft:villager,tag=!named] at @s store result score @s build_r run random value 0..744
 execute as @e[type=minecraft:villager,tag=!named,scores={build_r=0}] at @s run data merge entity @s {CustomName:"\"Ra\"", named:true,PersistenceRequired:1b}
 team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=0}]
 execute as @e[type=minecraft:villager,tag=!named,scores={build_r=1}] at @s run data merge entity @s {CustomName:"\"Osiris\"", named:true,PersistenceRequired:1b}
@@ -1458,10 +1458,34 @@ execute as @e[type=minecraft:villager,tag=!named,scores={build_r=727}] at @s run
 team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=727}]
 execute as @e[type=minecraft:villager,tag=!named,scores={build_r=728}] at @s run data merge entity @s {CustomName:"\"Tulius\"", named:true,PersistenceRequired:1b}
 team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=728}]
-execute as @e[type=minecraft:villager,tag=!named,scores={build_r=729}] at @s run data merge entity @s {CustomName:"\"Pikachu\"", named:true,PersistenceRequired:1b}
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=729}] at @s run data merge entity @s {CustomName:"\"Shintaro Kisaragi\"", named:true,PersistenceRequired:1b}
 team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=729}]
-execute as @e[type=minecraft:villager,tag=!named,scores={build_r=730}] at @s run data merge entity @s {CustomName:"\"Sephiroth\"", named:true,PersistenceRequired:1b}
-team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=730}]
-execute as @e[type=minecraft:villager,tag=!named,scores={build_r=731}] at @s run data merge entity @s {CustomName:"\"Grell Sutcliff\"", named:true,PersistenceRequired:1b}
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=730}] at @s run data merge entity @s {CustomName:"\"Ayano Tateyama\"", named:true,PersistenceRequired:1b}
+team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=730}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=731}] at @s run data merge entity @s {CustomName:"\"Ene\"", named:true,PersistenceRequired:1b}
 team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=731}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=732}] at @s run data merge entity @s {CustomName:"\"Takane Enomoto\"", named:true,PersistenceRequired:1b}
+team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=732}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=733}] at @s run data merge entity @s {CustomName:"\"Kido Tsubomi\"", named:true,PersistenceRequired:1b}
+team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=733}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=734}] at @s run data merge entity @s {CustomName:"\"Seto Kousuke\"", named:true,PersistenceRequired:1b}
+team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=734}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=735}] at @s run data merge entity @s {CustomName:"\"Kano Shuuya\"", named:true,PersistenceRequired:1b}
+team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=735}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=736}] at @s run data merge entity @s {CustomName:"\"Mary Kozakura\"", named:true,PersistenceRequired:1b}
+team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=736}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=737}] at @s run data merge entity @s {CustomName:"\"Momo Kisaragi\"", named:true,PersistenceRequired:1b}
+team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=737}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=738}] at @s run data merge entity @s {CustomName:"\"Hibiya Amamiya\"", named:true,PersistenceRequired:1b}
+team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=738}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=739}] at @s run data merge entity @s {CustomName:"\"Hiyori Asahina\"", named:true,PersistenceRequired:1b}
+team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=739}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=740}] at @s run data merge entity @s {CustomName:"\"Kenjirou Tateyama\"", named:true,PersistenceRequired:1b}
+team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=740}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=741}] at @s run data merge entity @s {CustomName:"\"Pikachu\"", named:true,PersistenceRequired:1b}
+team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=741}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=742}] at @s run data merge entity @s {CustomName:"\"Sephiroth\"", named:true,PersistenceRequired:1b}
+team join boy @e[type=minecraft:villager,tag=!named,scores={build_r=742}]
+execute as @e[type=minecraft:villager,tag=!named,scores={build_r=743}] at @s run data merge entity @s {CustomName:"\"Grell Sutcliff\"", named:true,PersistenceRequired:1b}
+team join girl @e[type=minecraft:villager,tag=!named,scores={build_r=743}]
 tag @e[type=minecraft:villager,tag=!named] add named

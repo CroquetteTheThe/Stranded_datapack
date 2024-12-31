@@ -49,7 +49,8 @@ boy_names = [
     "Illumi", "Shalnark", "Feitan", "Kite", "Knov", "Menthuthuyoupi", "Pufu", "Silva", "Tonpa", "Genthru", "Razor",
     "Basho", "Morel", "Knuckle", "Shoot", "Hanzo", "Ulfric", "Jarl Balgruuf", "Farkas", "Vilkas", "Esbern", "Eorlund",
     "Cicero", "Mercer Frey", "Farengar", "Gorm", "Borgakh", "Calcelmo",
-    "Tullius", "Ahlam", "Balin", "Bran", "Talos", "Tulius", "Sephiroth"
+    "Tullius", "Ahlam", "Balin", "Bran", "Talos", "Tulius", "Sephiroth",
+    "Shintaro Kisaragi", "Seto Kousuke", "Kano Shuuya", "Hibiya Amamiya", "Kenjirou Tateyama"
 
 ]
 girl_names = [
@@ -81,7 +82,8 @@ girl_names = [
     "Nixie", "Undine", "Maris", "Selkie", "Calypso", "Galene", "Briny", "Halcyon", "Tethys", "Biscuit", "Machi", "Cheadle",
     "Pitou", "Komugi", "Blinky", "Aela", "Astrid", "Delphine", "Gerdur", "Jarl Elisif",
     "Lydia", "Mjoll", "Olfrida", "Svidi", "Taarie", "Sylgja", "Ysolda", "Maven Black-Briar", "Sigrid", "Vex", "Vildralda",
-    "Avrusa Sarethi", "Grell Sutcliff"
+    "Avrusa Sarethi", "Grell Sutcliff", "Ayano Tateyama", "Ene", "Takane Enomoto", "Kido Tsubomi", "Mary Kozakura", "Momo Kisaragi",
+    "Hiyori Asahina"
 ]
 other_names = [
     "Nut", "Geb", "Persepolis",
@@ -287,7 +289,9 @@ name_list = [
     "Cicero", "Mercer Frey", "Farengar", "Gorm", "Borgakh", "Calcelmo",
     "Tullius", "Ahlam", "Balin", "Bran", "Talos", "Tulius",
 
-
+    # kagerou_project_characters = [
+    "Shintaro Kisaragi", "Ayano Tateyama", "Ene", "Takane Enomoto", "Kido Tsubomi", "Seto Kousuke", "Kano Shuuya",
+    "Mary Kozakura", "Momo Kisaragi", "Hibiya Amamiya", "Hiyori Asahina",  "Kenjirou Tateyama",
 
     # custom_names_croquette
     "Pikachu", "Sephiroth", "Grell Sutcliff"
