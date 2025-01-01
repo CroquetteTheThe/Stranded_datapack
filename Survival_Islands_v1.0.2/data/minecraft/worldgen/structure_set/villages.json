@@ -2,8 +2,8 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 10387312,
-    "separation": 8,
-    "spacing": 17
+    "separation": 10,
+    "spacing": 120
   },
   "structures": [
     {
@@ -20,10 +20,6 @@
     },
     {
       "structure": "minecraft:village_snowy",
-      "weight": 1
-    },
-    {
-      "structure": "minecraft:village_taiga",
       "weight": 1
     }
   ]
