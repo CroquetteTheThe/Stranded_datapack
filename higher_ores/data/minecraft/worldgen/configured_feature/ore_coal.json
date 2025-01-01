@@ -8,7 +8,7 @@
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:stone",
-            "probability": 0.7
+            "probability": 0.005
           },
           "state": {
             "Name": "minecraft:coal_ore"
@@ -18,7 +18,7 @@
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:dirt",
-            "probability": 0.7
+            "probability": 0.001
           },
           "state": {
             "Name": "minecraft:coal_ore"
@@ -28,7 +28,7 @@
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
-            "probability": 0.7
+            "probability": 0.01
           },
           "state": {
             "Name": "minecraft:coal_ore"
@@ -38,7 +38,7 @@
           "target": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:sand",
-            "probability": 0.7
+            "probability": 0.005
           },
           "state": {
             "Name": "minecraft:coal_ore"

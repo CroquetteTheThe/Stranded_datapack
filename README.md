@@ -18,6 +18,7 @@
 - [x] Set waystone spawnInVillages to FREQUENT. I like the idea of having a village name
 - [x] Up geodes to sea level
 - [ ] Make some ore specific to some biomes
+- [ ] Ambient sounds (wind in desert, seagulls in ocean, etc)
 
 # How to use this datapack
 
