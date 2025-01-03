@@ -94,7 +94,7 @@
         },
         "minecraft:squid": {
           "charge": 0.7,
-          "energy_budget": 0.15
+          "energy_budget": 0.2
         },
         "minecraft:dolphin": {
           "charge": 0.7,
