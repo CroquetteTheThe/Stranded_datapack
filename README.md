@@ -69,3 +69,11 @@ I also included a modified version of the datapack (Skyther)[https://www.planetm
 
 
 For testing ore generation, you can use the Advanced XRay mod. I included a version in the repo
+
+# Loot table changed
+
+- Chances to find Leather in buried treasures and shipwrecks
+- Elder Guardian has 33% chance to drop a Totem of Undying
+- Villages generate on water
+- Snowy and Taiga villages never generate
+- Amethysts geodes generate on upper levels, some are visible above the water
