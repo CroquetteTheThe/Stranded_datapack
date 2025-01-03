@@ -19,6 +19,8 @@
 - [x] Up geodes to sea level
 - [ ] Make some ore specific to some biomes
 - [ ] Ambient sounds (wind in desert, seagulls in ocean, etc)
+- [x] Generate less squids, fishes and stuff to avoid filling mob cap
+- [ ] Skeleton boat?
 
 # How to use this datapack
 
