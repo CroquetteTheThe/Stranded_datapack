@@ -1,0 +1,8 @@
+Resources to make boat faster:
+
+
+https://www.reddit.com/r/MinecraftCommands/comments/rk3np6/i_want_to_make_boat_faster_with_command/
+
+https://github.com/JustJoostNL/fastboat/blob/master/src/main/java/com/koningcool/fastboat/fastboat/Fastboat.java
+https://github.com/FaeWulf/Speedy-boat/blob/master/src/main/java/faewulf/boatspeed/mixin/BoatMixin.java
+https://www.planetminecraft.com/data-pack/skizz-s-enchanted-boats-unofficial/
