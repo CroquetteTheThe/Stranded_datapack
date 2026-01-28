@@ -34,6 +34,7 @@
 
 5/ Create new world
 
+Note: Use Minecraft 21.0 and Neoforge
 
 # What is here
 
